@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background-color: rgb(255, 254, 249);
+    font-family: 'Poppins', sans-serif;
+    border-top: 20px solid rgb(254, 192, 159);
+    font-size: large;
+    display: grid;
+}
+
+
+nav ul li{
+    background-size: 100px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(42, 42, 42);
+    font-size: 100%;
+}
+
+ul li{
+list-style-type: none;
+
+}
+
+#inicio{
+    color: rgb(254, 192, 159);
+}
+
+section{ 
+    color: rgb(42, 42, 42);
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 254, 249);
+    padding: 20px;
+}
+
+h1{
+    padding-top: 40px;
+}
+
+h2{
+    color: rgb(254, 192, 159);
+}
+.botonDeCompra{
+    border-radius: 10px;
+    border: 2px solid rgb(254, 192, 159);
+    height: 50px;
+    width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(102, 102, 101);
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: rgb(254, 192, 159);
+    color: rgb(53, 52, 52);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 70%;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+
+footer{
+    display: flex;
+}
+.navbarr{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.logo{
+    position: absolute;
+    top: 25px;
+    margin: 10px 10px 10px 40px;
+}
+
+nav{
+    align-content: center;
+    margin: 25px;
+}
+.navbarr li{
+    margin:0 20px;
+}
+.portada{
+    width: 800px;
+}
+
+.footerTienda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 3rem;
+}
+
+.footerRedes{
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem;
+}
+/*Servicios*/
+
+.grilla{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "header header header header"
+    "galeria galeria galeria galeria"
+    "footer footer footer footer";
+}
+
+.header{
+    grid-area: header;
+}
+
+.galeriaDeMarcas{
+    grid-area: galeria;
+}
+
+.footerCotainer{
+    grid-area: footer;
+}
+
+.refMarcas figure img{
+    border: 5px solid rgb(254, 192, 159);
+    width: 300px;
+    height: 300px;
+    margin: 50px 15px;
+}
+
+.refMarcas{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    height: 2500px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+
+
+
+
+/*Productos*/
+
+
