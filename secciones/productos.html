@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../estilos/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <title>Rosé</title>
 </head>
@@ -38,28 +40,20 @@
 		<h1>NUESTROS PRODUCTOS</h1>
 	</section>
     <section>
-        <div>
-            <h2>
+        <div  data-aos="fade-right">
+            <h2  data-aos="fade-right">
                 IDRAET
             </h2>
-                <H3>Dermo Purity</H3>
+                <H3  data-aos="fade-right">Dermo Purity</H3>
                     <h4>Una amplia línea de productos especialmente desarrollados para el uso de la profesional en su gabinete. Completando el cuidado de la piel en el hogar mediante el desarrollo de productos con principios activos innovadores que logran cubrir las distintas afecciones y necesidades de la piel que cada persona pueda tener según el diagnóstico de la especialista.</h4>
         </div>
         <figure>
-            <div class="box box1">
-                <img src="../img/product_dermo1.png" alt="">
+            <div >
+                <img src="../img/product_dermo1.png"  data-aos="fade-left" alt="">
             </div>
-            <div class="box box2">
-                <img src="../img/product_dermo2.png" alt="">
-            </div>
-            <div class="box box3">
-                <img src="../img/product_dermo3.png" alt="">
-            </div>
-            <div box box4>
-                <img src="../img/product_dermo4.png" alt="">
-            </div>
-            <div box box5>
-                <img src="../img/product_dermo5.png" alt="">
+            <div>
+                <h4> ZENSKIN NEW CREAMCREMA PROTECTORA</h4>
+                <p>Emulsión antioxidante y revitalizante. Previene el envejecimiento, ya sean arrugas, flaccidez y manchas y revierte los signos de la edad. Brinda protección ambiental avanzada frente a los factores ambientales que favorecen el envejecimiento cutáneo.</p>
             </div>
         </figure>
     </section>
@@ -88,5 +82,8 @@
                 <h4>Tik Tok</h4>
         </div>
     </footer>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
