@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar{
+    background-color: rgb(254, 192, 159);
+
+}
+
+header{
+    background-color: rgb(255, 254, 249);
+    font-family: 'Poppins', sans-serif;
+    border-top: 20px solid rgb(254, 192, 159);
+    font-size: large;
+    display: grid;
+}
+
+h1{
+    padding-top: 40px;
+}
+
+h2{
+    color: rgb(254, 192, 159);
+}
+
+footer{
+    background-color: rgb(255, 247, 242);
+}
+.footerCotainer{
+    background-color: rgb(255, 247, 242);
+    color: rgb(53, 52, 52);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 70%;
+    padding: 20px;
+    margin-bottom: 0;
+}
+.footerCotainer h3{
+    font-size: x-small;
+}
+
+.footerCotainer h4{
+    font-size: xx-small;
+}
+.footerCotainer{
+    display: flex;
+}
+
+.portada{
+    width: 800px;
+}
+
+.footerTienda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 3rem;
+}
+
+.footerRedes{
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem;
+}
+
+.galeriaDeMarcas{
+    grid-area: galeria;
+}
+
+.footerCotainer{
+    grid-area: footer;
+}
+.btn-outline-success {
+    color: rgb(117, 117, 117);
+    border-color: grey;
+}
+
+.btn-outline-success:hover{
+    background-color:  rgb(231, 231, 231);
+    color: rgb(104, 103, 103);
+    border-color: rgb(163, 163, 163);
+    font-family: 'Poppins', sans-serif;
+}
